@@ -53,6 +53,10 @@ p {
     padding: 30px;
 }
 
+.text span {
+    font-weight: bold;
+}
+
 @media only screen and (max-width:710px) {
     .right,
     .picture {
