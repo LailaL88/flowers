@@ -80,8 +80,15 @@ p {
         display: block;
     }
     select {
-         outline:none;
-        color:black;
-        background-color:white;
+        width: 35%;
+        outline: none;
+        color: black;
+        background-color: white;
+    }
+    option {
+        background-color: white;
+    }
+    #color {
+        margin-right: 0;
     }
 }
