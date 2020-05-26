@@ -78,7 +78,9 @@ p {
 @media only screen and (max-width:500px) {
     .select {
         display: block;
-        outline:none;
+    }
+    select {
+         outline:none;
         color:black;
         background-color:white;
     }
