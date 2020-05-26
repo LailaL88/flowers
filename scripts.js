@@ -67,7 +67,7 @@ function filterType(type) {
     }
 }
 
-selectColor.addEventListener("click", function selectColor(e) {
+selectColor.addEventListener("change", function selectColor(e) {
     if (e.target.value == "Red") {
         filterColor("red");
         e.target.selectedIndex = 7;
@@ -102,7 +102,7 @@ selectColor.addEventListener("click", function selectColor(e) {
 
 })
 
-selectType.addEventListener("click", function selectType(e) {
+selectType.addEventListener("change", function selectType(e) {
     if (e.target.value == "Rose") {
         filterType("rose");
         e.target.selectedIndex = 10;
