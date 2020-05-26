@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.842);
+    color: white;
+    font-family: "Roboto";
+    padding-bottom: 60px;
+}
+
+img {
+    width: 100px;
+    height: 130px;
+}
+
+img:hover {
+    animation: scale 900ms ease-in-out;
+}
+
+@keyframes scale {
+    to {
+        transform: scale(2);
+    }
+}
+
+div {
+    width: 40%;
+    margin: 0 auto;
+}
+
+select {
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: "Roboto";
+}
+
+option {
+    background-color: rgba(0, 0, 0, 0.842);
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+label {
+    margin-right: 10px;
+}
+
+#color {
+    margin-right: 20px;
+}
+
+h1 {
+    color: rgb(95, 228, 7);
+    font-family: "Piedra";
+    font-weight: normal;
+}
+
+p {
+    padding: 5px 5px 20px 5px;
+    font-size: 14px;
+}
+
+.select {
+    display: inline;
+}
+
+@media only screen and (max-width:1100px) {
+    div {
+        width: 98%;
+    }
+    img {
+        width: 80px;
+        height: 90px;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    .select {
+        display: block;
+    }
+}
