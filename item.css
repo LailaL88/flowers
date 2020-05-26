@@ -56,7 +56,7 @@ p {
 @media only screen and (max-width:710px) {
     .right,
     .picture {
-        width: 98%;
+        width: 100%;
         margin: 0;
     }
     p {
